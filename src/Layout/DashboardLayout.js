@@ -26,6 +26,8 @@ const DashboardLayout = () => {
                         {
                             isAdmin && <>
                                 <li><Link to='/dashboard/allUsers'>All users</Link></li>
+                                <li><Link to='/dashboard/adddoctor'>Add A Doctor</Link></li>
+                                <li><Link to='/dashboard/managedoctors'>Manage Doctors</Link></li>
                             </>
                         }
                     </ul>
